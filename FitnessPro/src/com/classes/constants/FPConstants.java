@@ -11,4 +11,6 @@ public class FPConstants {
 	
 	public static final String REGISTRATION_HOME = "/home";
 	
+	public static final String REGISTRATION_FORM = "/doRegister";
+	
 }

@@ -75,7 +75,7 @@ span.psw {
 	<label align="center"><b>No of Step's</b></label>
 	</td>
 	<td>
-	    <input type="text" placeholder="Enter NO of Steps" name="noofsteps" >
+	    <input type="text" placeholder="Enter NO of Steps" name="noofsteps" required >
 </td>
     
 	</tr>
@@ -86,7 +86,7 @@ span.psw {
 	<label align="center"><b>PushUp's</b></label>
 	</td>
 	<td>
-	    <input type="text" placeholder="Enter Pushup's" name="pushups" >
+	    <input type="text" placeholder="Enter Pushup's" name="pushups" required >
 </td>
     
 	</tr>
@@ -97,7 +97,7 @@ span.psw {
 	<label align="center"><b>Cycling</b></label>
 	</td>
 	<td>
-	    <input type="text" placeholder="Enter KM's" name="cyling" >
+	    <input type="text" placeholder="Enter KM's" name="cyling" required >
 </td>
     
 	</tr>
@@ -108,7 +108,7 @@ span.psw {
 	<label align="center"><b>Ab's</b></label>
 	</td>
 	<td>
-	    <input type="text" placeholder="Enter no of ABs" name="abs" >
+	    <input type="text" placeholder="Enter no of ABs" name="abs" required>
 </td>
     
 	</tr>
@@ -116,10 +116,10 @@ span.psw {
 	
 	<tr>
 	<td>
-	<label align="center"><b>Brisk Walking</b></label>
+	<label align="center"><b>Squats</b></label>
 	</td>
 	<td>
-	    <input type="text" placeholder="Enter KM's" name="briskwalk" >
+	    <input type="text" name="squats" required>
 </td>
     
 	</tr>

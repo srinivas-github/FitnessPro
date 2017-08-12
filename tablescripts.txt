@@ -1,0 +1,13 @@
+create table activity_log( userid varchar(50) primarykey , activity varchar(100) , Date DEFAULT CURRENT_TIMESTAMP )
+
+
+
+create table activity_codes( activity_id int(3) primarykey , activity varchar(30) ) ;
+
+
+
+insert into activity_codes values (100,'NO of Steps')
+insert into activity_codes values (101,'PushUps')
+insert into activity_codes values (102,'Cycling')
+insert into activity_codes values (103,'Abs')
+insert into activity_codes values (104,'BriskWalking')

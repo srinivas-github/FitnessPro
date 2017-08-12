@@ -16,13 +16,16 @@ public class LoginServiceImpl implements LoginService{
 	public void setLoginDAO(LoginDAO loginDAO) {
 		this.loginDAO = loginDAO;
 	}
-
-
-
-	@Override
+	
+	
+	
 	public boolean checkLogin(String username, String password) {
 		
 		return loginDAO.checkLogin(username, password);
+	}
+	
+	public List<User> getUserAcivities(){
+		return loginDao.getUserAcivities();
 	}
 
 }
